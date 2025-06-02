@@ -15,7 +15,7 @@ export default function Navbar() {
       <div >
         <Link href="/" className="flex flex-row items-center gap-3">
           <Image src={logo} alt="logo" height={50} width={50} />
-          <h1 className="font-extrabold text-yellow-200 text-xl lg:text-2xl">Gracode</h1>
+          <h1 className="font-extrabold text-yellow-200 text-xl lg:text-2xl">Gracode Studio</h1>
         </Link>
       </div>
 
