@@ -13,7 +13,7 @@ export default function Footer() {
 
             <div className="flex flex-col sm:flex-row flex-wrap  items-start p-3 justify-center gap-16">
                 <span className="flex flex-col items-start">
-                    <Link href="/"><h1 className="text-amber-300 text-2xl font-extrabold space-x-2 flex flex-row items-center gap-2"><Image src={logo} className="h-10 w-10" alt="picture" />GRACODE</h1></Link>
+                    <Link href="/"><h1 className="text-amber-300 text-2xl font-extrabold space-x-2 flex flex-row items-center gap-2"><Image src={logo} className="h-10 w-10" alt="picture" />GRACODE STUDIO</h1></Link>
                     <p className="text-lg text-gray-100 font-thin">Empowering ecommerce brands in the digital <br /> landscape
                         with data-driven strategies <br /> and exceptional results.</p>
                 </span>
@@ -55,7 +55,7 @@ export default function Footer() {
 
             </div>
             <div className="border-t-2 w-full p-2">
-                <p className="text-gray-100 text-lg">&copy; {new Date().getFullYear()} Gracode. All rights reserved</p>
+                <p className="text-gray-100 text-lg">&copy; {new Date().getFullYear()} Gracode Studio. All rights reserved</p>
             </div>
         </footer>
     )
