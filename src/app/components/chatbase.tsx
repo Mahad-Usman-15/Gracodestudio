@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image"
-import logo from "../image/logo.png"
+import logo from "../image/chatbot.png"
 import { useEffect, useState } from "react"
 export default function Chatbot(){
     const [isopen,setisopen]=useState(false)
@@ -19,7 +19,7 @@ export default function Chatbot(){
         <div className="">
 
             <button onClick={()=>setisopen(!isopen)} className="group  fixed bottom-4 right-4 z-50 bg-transparent flex flex-row-reverse items-center gap-2">
-            <Image src={logo} alt="logo" className="rounded-[40px] w-12 h-12  "/>
+            <Image src={logo} alt="logo" className="rounded-[40px] w-16 h-16  "/>
             {
                 isshowmsg &&(
                     <p className="items-center justify-center absolute   transition-all ease-in duration-700 text-lg  text-white font-semibold rounded-s-2xl px-3 py-3 w-52 mr-14 mb-2  bg-black">
