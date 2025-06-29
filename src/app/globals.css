@@ -8,7 +8,7 @@
 
 
 body{
-    background-color: #eff6ff;
+    background-color: #000000;
 /*  
 background-image: url(bg.jpg);
 width: 100%;
@@ -100,4 +100,6 @@ background-repeat: no-repeat; */
           box-shadow: .2em -.2em 0 0 currentcolor;
         }
       }
-   
+   .bg{
+    background-image: url("../../public/logo.png");
+   }
