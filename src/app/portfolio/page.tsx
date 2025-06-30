@@ -19,6 +19,8 @@ import { SiCanva } from "react-icons/si";
 import logo from "../image/graph.jpg"
 import logo2 from "../image/graph2.jpg"
 import logo3 from "../image/logo3.jpg"
+import tech from "../image/techecommerce.jpg"
+import clothing from "../image/clothingecommerce.jpg"
 type Portfolio = {
   id: number
   name: string
@@ -38,7 +40,7 @@ const portfolio: Portfolio[] = [{
   id: 1,
   name: "Clothing Ecommerce Website",
   tech: [RiNextjsFill, SiSanity , SiTailwindcss],
-  image: furniro,
+  image: clothing,
   slug: "UI/UX Design"
 },
 {
@@ -52,7 +54,7 @@ const portfolio: Portfolio[] = [{
   id: 3,
   name: "Tech Ecommerce Website",
   tech: [RiNextjsFill , TbBrandFramerMotion , SiTailwindcss , FaReact ],
-  image: Ecommerce,
+  image: tech,
   slug: "Web Development"
 
 
