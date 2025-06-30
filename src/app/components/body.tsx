@@ -10,13 +10,14 @@ import { ReactElement } from "react";
 import { TiTick } from "react-icons/ti";
 import ban from "../web_design_bg2.png"
 import avatar from "../avatar.jpg"
+import tech from "../image/techecommerce.jpg"
 import { RiNextjsFill } from "react-icons/ri";
 import { SiSanity } from "react-icons/si";
 import Ecommerce from "../image/crikcet.jpg"
 import furniro from "../image/furniro.jpeg"
 import { SiTailwindcss } from "react-icons/si";
 import Link from "next/link"
-
+import clothingwebsite from "../image/clothingecommerce.jpg"
 import { useState } from "react"
 import { FaPlus } from "react-icons/fa";
 import { FaMinus } from "react-icons/fa6";
@@ -69,7 +70,7 @@ const portfolio: Portfolio[] = [{
   id: 1,
   name: "Clothing Ecommerce Website",
   tech: [RiNextjsFill, SiSanity , SiTailwindcss],
-  image: furniro,
+  image: clothingwebsite,
   
 },
 {
@@ -83,7 +84,7 @@ const portfolio: Portfolio[] = [{
   id: 3,
   name: "Tech Ecommerce Website",
   tech: [RiNextjsFill , TbBrandFramerMotion , SiTailwindcss , FaReact ],
-  image: Ecommerce,
+  image: tech,
   
 
 
